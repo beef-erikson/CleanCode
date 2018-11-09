@@ -38,8 +38,9 @@ public class IntentionRevealingNames {
         return flaggedCells;
     }
 
+
     // Even better - Assume you made a class Cell.
-    public List<Cell> = getFlagedCells() {
+    public List<Cell> getFlagedCells() {
         List<Cell> flaggedCells = new ArrayList<Cell>();
         for (Cell cell : gameBoard)
             if (cell.isFlagged())
