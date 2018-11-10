@@ -40,7 +40,7 @@ public class IntentionRevealingNames {
 
 
     // Even better - Assume you made a class Cell.
-    public List<Cell> getFlagedCells() {
+    public List<Cell> getFlaggedCells() {
         List<Cell> flaggedCells = new ArrayList<Cell>();
         for (Cell cell : gameBoard)
             if (cell.isFlagged())
