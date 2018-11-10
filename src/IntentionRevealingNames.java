@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class IntentionRevealingNames {
+
     int d;  // elapsed time in days
 
     // instead, declare exactly what the meaning is
